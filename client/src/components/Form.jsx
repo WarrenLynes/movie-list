@@ -9,9 +9,6 @@ const Form = ({ onSubmit, placeholder, verbage }) => {
 
   const handleSubmit = () => {
     onSubmit(input);
-    if (verbage.toLowerCase().includes('add')) {
-      setInput('');
-    }
   }
 
   return (

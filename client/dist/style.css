@@ -2,6 +2,44 @@ body {
   font-family: sans-serif, arial;
 }
 
+#app {
+  width: 695px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
 .searchbox {
   display: flex;
+}
+
+.movie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie:hover {
+  border: 1px solid;
+}
+
+.movie-title {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.result-img {
+  max-height: 150px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.result-img {
+  max-height: 75px;
+}
+
+.result-img:hover {
+  border: 1px solid;
 }

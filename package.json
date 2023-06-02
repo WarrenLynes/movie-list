@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon server/index.js",
-    "react-dev": "webpack --config ./webpack.config.js  -w"
+    "react-dev": "webpack --config ./webpack.config.js  -w & nodemon server/index.js f;"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -24,6 +24,9 @@
     "express": "^4.17.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-redux": "^8.0.7",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
     "underscore": "^1.12.1"
   }
 }
