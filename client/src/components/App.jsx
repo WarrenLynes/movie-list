@@ -63,12 +63,11 @@ const App = ({ movieData, requestToken, sessionId }) => {
       ? lists[list].items.filter(({ title }) =>
         title.toLowerCase().includes(search.toLowerCase())
       ) : [];
+
   const _lists = lists
     ? Object.values(lists)
     : [];
 
-
-  console.log(lists, list);
   return (
     <div>
       <h1>Movie List</h1>
