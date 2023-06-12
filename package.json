@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon server/index.js",
-    "react-dev": "webpack --config ./webpack.config.js  -w & nodemon server/index.js f;"
+    "build-client": "webpack --config ./webpack.config.js  -w"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
